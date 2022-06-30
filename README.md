@@ -1,7 +1,7 @@
 <h1>🚀 Ignite Lab - Evento Rockeseat</h1>
 
 <h2>Objetivos deste projeto</h1>
-<p>Desenvolver uma plataforma de estudos utilizando graphCMS, graphQL, Tailwind, React</p> 
+<p>Desenvolver uma plataforma de estudos utilizando graphCMS, graphQL, Tailwind e React</p> 
 
 <h2>Tecnologias e ferramentas Utilizadas</h2>
 <ul>

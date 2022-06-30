@@ -1,10 +1,12 @@
-import { gql, useMutation } from "@apollo/client";
+
 import { useState, FormEvent } from "react";
 import { useNavigate } from "react-router-dom";
 import { Logo } from "../components/Logo";
 import { useCreateSubscriberMutation } from "../graphql/generated";
 
 export function Subscribe() {
+
+    const codeMockup = new URL('../assets/code-mockup.png', import.meta.url).href
     const navigate = useNavigate()
 
     const [name, setName] = useState('');
@@ -64,7 +66,7 @@ export function Subscribe() {
             </div>
            
 
-            <img src="/src/assets/code-mockup.png" className="mt-10" alt="Print de um código react" />
+            <img src={codeMockup} className="mt-10" alt="Print de um código react" />
 
         </div>
     )
